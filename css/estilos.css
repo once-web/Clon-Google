@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-navegacion {
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: flex-end;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid transparent;
+  width: 200px;
+}
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.menu a:hover {
+  text-decoration: underline black;
+}
+
+.menupuntos a img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.menupuntos2 img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.menupuntos a img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.menupuntos2 a img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.letras {
+  height: 150px;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  background: #fff;
+  border: 1px solid transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#barra {
+  width: 600px;
+  height: 40px;
+  border-radius: 60px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+}
+
+#barra:hover {
+  box-shadow: 2px 2px 5px #999;
+  cursor: pointer;
+}
+
+.contenedor .uno {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+
+.contenedor .dos {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: relative;
+  right: 40px;
+}
+
+.contenedor-botones {
+  background: #fff;
+  border: 1px solid transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-botones .boton-google {
+  padding: 10px 20px;
+  border: none;
+  box-sizing: border-box;
+  margin: auto;
+  background: #f8f9fa;
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  right: 8px;
+  border-radius: 4px;
+}
+.contenedor-botones .boton-google:hover {
+  box-shadow: 2px 2px 5px #999;
+}
+.contenedor-botones .boton2 {
+  padding: 10px 20px;
+  border: none;
+  box-sizing: border-box;
+  margin: auto;
+  background: #f8f9fa;
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 8px;
+  border-radius: 4px;
+}
+.contenedor-botones .boton2:hover {
+  box-shadow: 2px 2px 5px #999;
+}
+
+.contenedor-mensaje {
+  background: #fff;
+  border: 1px solid transparent;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-mensaje #mensaje2 {
+  color: blue;
+}
+.contenedor-mensaje #mensaje2:hover {
+  text-decoration: underline blue;
+  cursor: pointer;
+}
+.contenedor-mensaje-abajo {
+  border: 1px solid transparent;
+  height: 50px;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  color: #70757a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contenedor2-mensaje-abajo {
+  border: 1px solid transparent;
+  height: 60px;
+  width: 100%;
+  display: flex;
+
+  background-color: #f2f2f2;
+}
+
+.contenedor-mensaje-abajo #mex {
+  position: relative;
+  left: 20px;
+}
+
+.barra-navegacion-abajo {
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: flex-start;
+  height: 60px;
+}
+.menu-abajo {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid transparent;
+  width: 500px;
+  align-items: center;
+}
+.menu-abajo li {
+  list-style: none;
+}
+
+.menu-abajo a {
+  color: #70757a;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.menu-abajo a:hover {
+  text-decoration: underline grey;
+}
+.barra3-navegacion3-abajo3 {
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: flex-end;
+  height: 60px;
+  position: relative;
+  left: 360px;
+}
+.menu3-abajo3 {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid transparent;
+  width: 500px;
+  align-items: center;
+}
+.menu3-abajo3 li {
+  list-style: none;
+}
+
+.menu3-abajo3 a {
+  color: #70757a;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.menu3-abajo3 a:hover {
+  text-decoration: underline grey;
+}
